@@ -36,6 +36,16 @@ namespace Demo01B
             Console.WriteLine(triangulo.CalcularArea());
 
 
+            Estudiante estudiante = new Estudiante
+            {
+                Nombres = "Dave",
+                Apellidos = "Santivañez",
+                Nota = 20
+            };
+
+
+
+
             Console.WriteLine("Hola Mundo");
             Console.Read();
 
