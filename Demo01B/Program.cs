@@ -51,6 +51,25 @@ namespace Demo01B
              */
 
 
+            Triangulo triangulo1 = new Triangulo
+            {
+                coordenada1 = new Coordenada { x = 1, y = 1 },
+                coordenada2 = new Coordenada { x = 2, y = 2 },
+                coordenada3 = new Coordenada { x = 3, y = 3 }
+            };
+
+
+            Triangulo triangulo2 = new Triangulo();
+
+            Coordenada coordenada1 = new Coordenada { x = 1, y = 1 };
+            Coordenada coordenada2 = new Coordenada { x = 1, y = 1 };
+            Coordenada coordenada3 = new Coordenada { x = 1, y = 1 };
+
+            triangulo2.coordenada1 = coordenada1;
+            triangulo2.coordenada2 = coordenada2;
+            triangulo2.coordenada3 = coordenada3;
+
+
 
             Console.WriteLine("Hola Mundo");
             Console.Read();
