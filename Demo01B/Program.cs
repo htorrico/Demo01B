@@ -42,7 +42,13 @@ namespace Demo01B
                 Apellidos = "Santivañez",
                 Nota = 20
             };
-
+            /*
+             [0,2000>     8%
+             [2000,5000> 14%
+             [5000,+00>  30%             
+            
+             SueldoNeto=Sueldo - Descuento
+             */
 
 
 
