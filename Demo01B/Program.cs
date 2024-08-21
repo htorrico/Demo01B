@@ -26,7 +26,7 @@ namespace Demo01B
             {
                 Nombres = "Dérek",
                 Apellidos = "Torrico",
-                Edad=5
+                //Edad=5
             };
 
 
